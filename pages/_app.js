@@ -1,8 +1,11 @@
+import ResponsiveAppBar from '../components/Navbar';
 import Head from 'next/head';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { CacheProvider } from '@emotion/react';
 import createEmotionCache from '../styles/createEmotionCache';
+import Header from '@components/Header';
+
 
 import "/styles/globals.css";
 import theme from '../styles/theme';
@@ -16,6 +19,7 @@ export default function MyApp(props) {
 
   return (
     <CacheProvider value={emotionCache}>
+      <ResponsiveAppBar /> 
       <Head>
         <title>MUI5 Nextjs</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
