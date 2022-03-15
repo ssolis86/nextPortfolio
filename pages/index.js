@@ -1,7 +1,10 @@
 import Container from "@mui/material/Container";
+import Hero from '@components/Hero';
 
 const Homepage = () => {
   return (
+   <Hero imgSrc='/tiletwo.jpg'
+          imgAlt={'green plants with white background'}> 
     <Container maxWidth="sm">
       <h1>Home Page</h1>
       <p>
@@ -55,6 +58,7 @@ const Homepage = () => {
         perspiciatis fuga iste nam! Ut, iusto suscipit.
       </p>
     </Container>
+    </Hero> 
   );
 };
 

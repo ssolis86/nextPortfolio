@@ -4,12 +4,7 @@ import MuiNextLink from "./MuiNextLink";
 
 const Navbar = ({ navLinks }) => {
   return (
-    <Toolbar
-      component="nav"
-      sx={{
-        display: { xs: `none`, md: `flex` },
-      }}
-    >
+    <Toolbar component="nav" sx={{display: { xs: `none`, md: `flex` },}}>
       <Stack direction="row" spacing={4}>
         {navLinks.map(({ title, path }, i) => (
           <MuiNextLink
