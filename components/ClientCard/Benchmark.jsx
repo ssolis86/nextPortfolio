@@ -12,7 +12,7 @@ export default function BenchmarkDental() {
         <CardMedia
           component="img"
           height="fill"
-          src='/bmDental.png'
+          src='/bmDental.jpg'
           alt="Benchmark Dental Plans"
         />
         <CardContent>
