@@ -1,6 +1,7 @@
+import React from "react";
 import Container from "@mui/material/Container";
 import Hero from '@components/Hero';
-import React from "react";
+import SectionAbout from "@components/SectionAbout";
 
 const Homepage = () => {
   return (
@@ -8,7 +9,10 @@ const Homepage = () => {
      <Hero
         imgSrc="/chipset.jpg"
         imgAlt="satified woman eating in restaurant"
+        title='Stephen Solis'
+        subtitle='Full Stack Software Engineer'
       />
+      <SectionAbout />
         <Container maxWidth="sm">
           <h1>Home Page</h1>
           <p>
