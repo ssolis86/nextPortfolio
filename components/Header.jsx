@@ -4,6 +4,7 @@ import Toolbar from "@mui/material/Toolbar";
 import { styled } from "@mui/system";
 import IconButton from "@mui/material/IconButton"
 import Home from "@mui/icons-material/Home"
+import CottageIcon from '@mui/icons-material/Cottage';
 import MuiNextLink from "@components/MuiNextLink";
 import Navbar from './Navbar';
 import SideDrawer from "./SideDrawer";
@@ -34,7 +35,7 @@ const Header = () => {
             >
               <IconButton edge="start" aria-label="home">
                 <MuiNextLink activeClassName="active" href="/">
-                  <Home
+                  <CottageIcon
                     sx={{
                       color: (theme) => theme.palette.common.white,
                     }}
