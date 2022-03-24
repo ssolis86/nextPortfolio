@@ -4,6 +4,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { CacheProvider } from '@emotion/react';
 import createEmotionCache from '../styles/createEmotionCache';
 import Header from '@components/Header';
+import Footer from '@components/Footer';
 
 
 import "/styles/globals.css";
@@ -27,6 +28,7 @@ export default function MyApp(props) {
         <CssBaseline />
         <Header />
         <Component {...pageProps} />
+        <Footer />
       </ThemeProvider>
     </CacheProvider>
   );

@@ -8,7 +8,7 @@ import { CardActionArea } from '@mui/material';
 export default function BenchmarkDental() {
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
+      <CardActionArea href='https://www.benchmarkdental.com/' target='_blank'>
         <CardMedia
           component="img"
           height="fill"
