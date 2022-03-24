@@ -1,6 +1,6 @@
 import { Container, Grid, Typography } from "@mui/material";
 import Sushihana from "./ClientCard/Sushihana";
-import Photography from "./Hobbies/photography";
+import Photography from "./Hobbies/Photography";
 import Golf from "./Hobbies/Golf";
 import Music from "./Hobbies/Music";
 import NavigationCard from "./NavigationCard";
