@@ -42,7 +42,7 @@ const SectionAbout = () => {
                     textAlign="center"
                     sx={{ mb: 5}}
                 >
-                    {`My name is Stephen and I help peoples visions become a reality`}
+                    {``}
                 </Typography>
                 <MuiNextLink href="/about"
                 >
