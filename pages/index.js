@@ -7,6 +7,7 @@ import SectionImage from "@components/SectionImage";
 import SectionClients from "@components/SectionClients";
 import NavigationCard from "@components/NavigationCard";
 
+
 const Homepage = () => {
   return (
    <React.Fragment>
@@ -22,8 +23,6 @@ const Homepage = () => {
       <SectionImage imgSrc="/laptop.jpg" imgAlt="laptop on a desk" />
 
       <SectionClients />
-
-      
 
       <SectionImage imgSrc="/desktop.jpg" imgAlt="laptop on a desk" />
 

@@ -3,6 +3,7 @@ import Image from "next/image";
 import Typography from "@mui/material/Typography";
 import MuiNextLink from "@components/MuiNextLink";
 import Button from "@mui/material/Button";
+import Link from 'next/link';
 
 
 
@@ -42,7 +43,7 @@ const SectionAbout = () => {
                     textAlign="center"
                     sx={{ mb: 5}}
                 >
-                    {``}
+                    
                 </Typography>
                 <MuiNextLink href="/about"
                 >

@@ -22,7 +22,7 @@ const Footer = () => {
                 
                 <MuiNextLink
                     sx={{ textDecoration: "none", color: "common.white" }}
-                    href=" www.linkedin.com/in/stephen-solis"
+                    href="https://www.linkedin.com/in/stephen-solis/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -31,7 +31,7 @@ const Footer = () => {
                 
                 <MuiNextLink
                     sx={{ textDecoration: "none", color: "common.white" }}
-                    href=""
+                    href="https://www.google.com"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

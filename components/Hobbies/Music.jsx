@@ -5,7 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
-export default function Music() {
+const Music = () => {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea href='' target='_blank'>
@@ -27,3 +27,5 @@ export default function Music() {
     </Card>
   );
 };
+
+export default Music;
