@@ -35,7 +35,7 @@ const AboutSectionAbout = () => {
                     textAlign="center" 
                     gutterBottom
                 >
-                    I'm currently a Freelance Web Developer helping businesses grow their presence online.
+                    {`I'm currently a Freelance Web Developer helping businesses grow their presence online`}
                 </Typography>
                 <Typography 
                     textAlign="center"

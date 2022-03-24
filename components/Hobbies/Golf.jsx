@@ -20,7 +20,7 @@ export default function Golf() {
             Golf
           </Typography>
           <Typography textAlign='center' variant="body2" color="text.secondary">
-          My favorite local course!
+            My favorite local course!
           </Typography>
         </CardContent>
       </CardActionArea>

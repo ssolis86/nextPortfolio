@@ -20,7 +20,7 @@ export default function Photography() {
             Photography
           </Typography>
           <Typography textAlign='center' variant="body2" color="text.secondary">
-          A few pictures I've taken
+            {`A few pictures I've taken`}
           </Typography>
         </CardContent>
       </CardActionArea>
