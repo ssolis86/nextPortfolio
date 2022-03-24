@@ -26,4 +26,4 @@ export default function Photography() {
       </CardActionArea>
     </Card>
   );
-}
+};
