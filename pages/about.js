@@ -16,6 +16,7 @@ const AboutMePage = () => {
         imgAlt="motherboard chipset"
         title='About Me'
         subtitle=''
+        priority
       />
 
       <AboutSectionAbout />
