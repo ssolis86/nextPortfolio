@@ -14,7 +14,7 @@ const SectionImage = ({ imgSrc, imgAlt }) => {
         zIndex: -100,
       }}
     >
-         <Image src={imgSrc} alt={imgAlt} layout="fill" objectFit="cover" />
+         <Image src={imgSrc} alt={imgAlt} layout="fill" objectFit="cover" priority/>
          <Box
             sx={{
                 position: "absolute",
