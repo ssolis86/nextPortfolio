@@ -21,11 +21,11 @@ const AboutMePage = () => {
 
       <AboutSectionAbout />
 
-      <SectionImage imgSrc="/laptop.jpg" imgAlt="laptop on a desk" />
+      <SectionImage imgSrc="/laptop.jpg" imgAlt="laptop on a desk" priority />
 
       <Hobbies />
 
-      <SectionImage imgSrc="/desktop.jpg" imgAlt="laptop on a desk" />
+      <SectionImage imgSrc="/desktop.jpg" imgAlt="laptop on a desk" priority />
 
     </React.Fragment>
     );
