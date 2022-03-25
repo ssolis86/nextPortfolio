@@ -57,7 +57,7 @@ const AboutHero = ({ imgSrc, imgAlt, title, subtitle }) => {
                             {subtitle}
                         </Typography>
                         <Typography component="p" variant="h6" color="secondary" gutterBottom>
-                        Scroll
+                        
                         </Typography>
                         <ArrowDownward fontSize="large" color="secondary" />
                     </Grid> 
