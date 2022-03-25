@@ -6,6 +6,8 @@ import SectionAbout from "@components/SectionAbout";
 import SectionImage from "@components/SectionImage";
 import SectionClients from "@components/SectionClients";
 import NavigationCard from "@components/NavigationCard";
+import laptop from '../public/laptop.jpg'
+import desktop from '../public/desktop.jpg'
 
 
 const Homepage = () => {
@@ -16,15 +18,16 @@ const Homepage = () => {
         imgAlt="motherboard chipset"
         title='Stephen Solis'
         subtitle='Full Stack Web Developer'
+        priority
       />
 
       <SectionAbout />
 
-      <SectionImage imgSrc="/laptop.jpg" imgAlt="laptop on a desk" />
+      <SectionImage imgSrc={laptop} priority imgAlt="laptop on a desk" />
 
       <SectionClients />
 
-      <SectionImage imgSrc="/desktop.jpg" imgAlt="laptop on a desk" />
+      <SectionImage imgSrc={desktop} priority imgAlt="laptop on a desk" />
 
       <Container maxWidth="md" sx={{ my: 15 }}>
         <Grid container spacing={2}>
