@@ -3,7 +3,6 @@ import Container from "@mui/material/Container";
 import Toolbar from "@mui/material/Toolbar";
 import { styled } from "@mui/system";
 import IconButton from "@mui/material/IconButton"
-import Home from "@mui/icons-material/Home"
 import CottageIcon from '@mui/icons-material/Cottage';
 import MuiNextLink from "@components/MuiNextLink";
 import Navbar from './Navbar';
@@ -12,6 +11,8 @@ import HideOnScroll from "./HideOnScroll";
 import Fab from "@mui/material/Fab";
 import KeyboardArrowUp from "@mui/icons-material/KeyboardArrowUp";
 import BackToTop from "./BackToTop";
+import Image from 'next/image';
+import myLogo from '../public/sbs-logo.png.png';
 
 const Offset = styled("div")(({ theme }) => theme.mixins.toolbar);
 
@@ -35,12 +36,7 @@ const Header = () => {
             >
               <IconButton edge="start" aria-label="home">
                 <MuiNextLink activeClassName="active" href="/">
-                  <CottageIcon
-                    sx={{
-                      color: (theme) => theme.palette.common.white,
-                    }}
-                    fontSize="large"
-                  />
+                  <Image src={myLogo}/>
                 </MuiNextLink>
               </IconButton>
 

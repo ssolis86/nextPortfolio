@@ -19,7 +19,6 @@ const SectionImage = ({ imgSrc, imgAlt }) => {
             alt={imgAlt} 
             layout="fill" 
             objectFit="cover"
-            placeholder="blur" 
             priority/>
          <Box
             sx={{
