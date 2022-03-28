@@ -12,7 +12,7 @@ import Fab from "@mui/material/Fab";
 import KeyboardArrowUp from "@mui/icons-material/KeyboardArrowUp";
 import BackToTop from "./BackToTop";
 import Image from 'next/image';
-import myLogo from '../public/sbs-logo.png.png';
+import myLogo from '../public/Asset 3.png';
 
 const Offset = styled("div")(({ theme }) => theme.mixins.toolbar);
 

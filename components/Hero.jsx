@@ -41,6 +41,7 @@ const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
                             sx={{
                             color: "secondary.main",
                             fontWeight: 400,
+
                             }}
                         >
                             {title}
