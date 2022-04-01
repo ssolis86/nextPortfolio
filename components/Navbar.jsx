@@ -1,6 +1,9 @@
+// import { background } from "@chakra-ui/react";
+// import MuiNextLink from "./MuiNextLink";
 import Stack from "@mui/material/Stack";
 import Toolbar from "@mui/material/Toolbar";
-import MuiNextLink from "./MuiNextLink";
+import Button from '@mui/material/Button';
+import Link from "next/link";
 
 
 const Navbar = ({ navLinks }) => {
@@ -8,14 +11,18 @@ const Navbar = ({ navLinks }) => {
     <Toolbar component="nav" sx={{display: { xs: `none`, md: `flex` },}}>
       <Stack direction="row" spacing={4}>
         {navLinks.map(({ title, path }, i) => (
-          <MuiNextLink
-            key={`${title}${i}`}
-            href={path}
-            variant="button"
-            sx={{ color: `white`, opacity: 0.8 }}
+          <Link key={`${title}${i}`}
+                href={path}
           >
-            {title}
-          </MuiNextLink>
+            <Button
+              
+              variant="contained"
+              color="secondary"
+              sx={{ color: `grey`, opacity: 0.8 }}
+            >
+              {title}
+            </Button>
+          </Link>
         ))}
       </Stack>
     </Toolbar>

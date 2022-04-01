@@ -27,7 +27,7 @@ export const NextLinkComposed = React.forwardRef(function NextLinkComposed(props
 
 // A styled version of the Next.js Link component:
 // https://nextjs.org/docs/#with-link
-const Link = React.forwardRef(function Link(props, ref) {
+const MuiNextLink = React.forwardRef(function Link(props, ref) {
   const {
     activeClassName = 'active',
     as: linkAs,
@@ -71,4 +71,4 @@ const Link = React.forwardRef(function Link(props, ref) {
   );
 });
 
-export default Link;
+export default MuiNextLink;
