@@ -1,5 +1,5 @@
 import { createTheme, responsiveFontSizes } from "@mui/material/styles";
-import { grey, lime } from "@mui/material/colors";
+import { grey, lime, purple } from "@mui/material/colors";
 
 // Create a theme instance.
 let theme = createTheme({
@@ -8,7 +8,7 @@ let theme = createTheme({
     primary: {
       main: grey[900],
     },
-    secondary: lime,
+    secondary: purple,
   },
 });
 

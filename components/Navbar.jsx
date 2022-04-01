@@ -18,7 +18,7 @@ const Navbar = ({ navLinks }) => {
               
               variant="contained"
               color="secondary"
-              sx={{ color: `grey`, opacity: 0.8 }}
+              sx={{ color: `white`, opacity: 0.9 }}
             >
               {title}
             </Button>
