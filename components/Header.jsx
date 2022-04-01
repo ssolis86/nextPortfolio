@@ -19,9 +19,9 @@ const Offset = styled("div")(({ theme }) => theme.mixins.toolbar);
 export const navLinks =[
   {title: 'home', path: '/'},
   {title: 'about me', path: '/about'},
-  {title: 'projects', path: '/projects'},
-  {title: 'technologies', path: '/technologies'},
-  {title: 'contact me', path: '/contact'},
+  // {title: 'projects', path: '/projects'},
+  // {title: 'technologies', path: '/technologies'},
+  // {title: 'contact me', path: '/contact'},
 ]
 
 const Header = () => {
@@ -36,7 +36,7 @@ const Header = () => {
             >
               <IconButton edge="start" aria-label="home">
                 <MuiNextLink activeClassName="active" href="/">
-                  <Image src={myLogo}/>
+                  <CottageIcon color="secondary" fontSize="large" />
                 </MuiNextLink>
               </IconButton>
 
