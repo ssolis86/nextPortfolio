@@ -36,6 +36,8 @@ const SectionAbout = () => {
                     variant="h4" 
                     textAlign="center" 
                     gutterBottom
+                    fontFamily='Roboto'
+                    fontWeight='300'
                 >
                     A Full Stack Web Developer Who Loves Technology
                 </Typography>
@@ -47,8 +49,13 @@ const SectionAbout = () => {
                 </Typography>
                 <MuiNextLink href="/about"
                 >
-                    <Button variant="contained" size="large">
-                        About Me
+                    <Button
+              
+                    variant="contained"
+                    color="secondary"
+                    sx={{ color: `white`, opacity: 0.9 }}
+                    >
+                    About
                     </Button>
                 </MuiNextLink>
 

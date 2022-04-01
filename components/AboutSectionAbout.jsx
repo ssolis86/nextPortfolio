@@ -34,6 +34,8 @@ const AboutSectionAbout = () => {
                     variant="h4" 
                     textAlign="center" 
                     gutterBottom
+                    fontFamily='Roboto'
+                    fontWeight='300'
                 >
                     {`I'm currently a Freelance Web Developer helping businesses grow their presence online`}
                 </Typography>
