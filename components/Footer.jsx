@@ -31,7 +31,7 @@ const Footer = () => {
                 
                 <MuiNextLink
                     sx={{ textDecoration: "none", color: "common.white" }}
-                    href="https://www.google.com"
+                    href="https://drive.google.com/file/d/1EBBFZylpvDexiBgmC5lgbPhM6gu0nKPP/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
