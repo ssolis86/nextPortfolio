@@ -5,6 +5,7 @@ import { styled } from "@mui/system";
 import IconButton from "@mui/material/IconButton"
 import CottageIcon from '@mui/icons-material/Cottage';
 import MuiNextLink from "@components/MuiNextLink";
+import Link from "next/link";
 import Navbar from './Navbar';
 import SideDrawer from "./SideDrawer";
 import HideOnScroll from "./HideOnScroll";
@@ -35,9 +36,9 @@ const Header = () => {
               sx={{ display: `flex`, justifyContent: `space-between` }}
             >
               <IconButton edge="start" aria-label="home">
-                <MuiNextLink activeClassName="active" href="/">
+                <Link activeClassName="active" href="/">
                   <CottageIcon color="secondary" fontSize="large" />
-                </MuiNextLink>
+                </Link>
               </IconButton>
 
               <Navbar navLinks={navLinks} />
