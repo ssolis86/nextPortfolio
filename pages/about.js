@@ -13,7 +13,7 @@ const AboutMePage = () => {
     <React.Fragment>
      <AboutHero
         imgSrc="/me.jpg"
-        imgAlt="motherboard chipset"
+        imgAlt="picture of me"
         title='About Me'
         subtitle=''
         priority
