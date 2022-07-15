@@ -17,7 +17,14 @@ const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
                 mb: 15,
             }}
             >
-                <Image src={imgSrc} alt={imgAlt} layout="fill" objectFit="cover" />
+                <Image 
+                    src={imgSrc}
+                    alt={imgAlt}
+                    layout="responsive"
+                    objectFit='cover'
+                    objectPosition="bottom right"
+                    loading='eager'
+                />
 
                 <Grid
                     container

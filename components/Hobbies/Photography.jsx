@@ -8,7 +8,7 @@ import { CardActionArea } from '@mui/material';
 const Photography = () => {
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea href='https://www.instagram.com/barrett0101/' target='_blank'>
+      <CardActionArea href='https://www.instagram.com/stephengoesplaid/' target='_blank'>
         <CardMedia
           component="img"
           height="fill"
