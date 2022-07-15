@@ -36,7 +36,7 @@ const Header = () => {
               sx={{ display: `flex`, justifyContent: `space-between` }}
             >
               <IconButton edge="start" aria-label="home">
-                <Link activeClassName="active" href="/">
+                <Link activeClassName="active" href="/" passHref>
                   <CottageIcon color="secondary" fontSize="large" />
                 </Link>
               </IconButton>
